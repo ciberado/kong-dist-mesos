@@ -55,9 +55,9 @@
   },
   "env": {
     "KONG_PG_PASSWORD": "kong",
-    "KONG_PG_HOST": "marathon-lb-internal.marathon.mesos",
+    "KONG_PG_HOST": "postgres.marathon.mesos",
     "KONG_PG_USER": "kong",
-    "KONG_PG_PORT": "10000",
+    "KONG_PG_PORT": "5432",
     "KONG_DATABASE": "postgres"
   },
   "healthChecks": [

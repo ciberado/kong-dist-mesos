@@ -20,7 +20,7 @@
       "portMappings": [
         {
           "containerPort": 5432,
-          "hostPort": 0,
+          "hostPort": 5432,
           "servicePort": 10000,
           "protocol": "tcp",
           "name": "postgres",
